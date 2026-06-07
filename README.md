@@ -21,6 +21,16 @@ If Supabase env vars are blank, the app runs entirely on local AsyncStorage. Wir
 - Expo SDK 56, Expo Router (file-based), TypeScript.
 - NativeWind 4 + Tailwind 3 (design tokens in `tailwind.config.js`).
 - Zustand stores in `store/` with persistence via AsyncStorage.
+- Reanimated 3 for smooth animations and transitions.
+- Supabase Auth + Postgres (optional; falls back to AsyncStorage offline).
+
+## Features
+
+- Pomodoro-style focus sessions with RPG progression
+- Earn XP and level up your monster companion as you stay focused
+- Unlock new monster evolutions at milestone levels
+- Session history and streak tracking
+- Offline-first — works without Supabase configured
 - React Native Reanimated for XP ring, timer ring, level-up particles, egg crack.
 - Supabase JS client + anon auth (`lib/supabase.ts`).
 
